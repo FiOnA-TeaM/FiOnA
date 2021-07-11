@@ -2665,10 +2665,10 @@ Text = [[
 ℘ ⦑ SOURCE FiOnA ⦒ 
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
 ℘︙[Source Channel](t.me/fiona_team)   
-℘︙[Devloper one](t.me/Abbasfadhil)     
-℘︙[Devloper two](t.me/i_0_4) 
+℘︙[Devloper one](t.me/BBB43)     
+℘︙[Devloper two](t.me/abbasfadhil) 
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-𓂅 . [TWS FiOnA](t.me/zg4bot)     
+𓂅 . [TWS FiOnA](t.me/Z66Z6bot)     
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
