@@ -2749,6 +2749,43 @@ database:set(bot_id.."Set:Cmd:Group"..msg.chat_id_..':'..msg.sender_user_id_,'tr
 send(msg.chat_id_, msg.id_,' ℘︙ارسل الامر القديم')  
 return false
 end
+if text == "ترتيب الاوامر" and Constructor(msg) then
+database:set(bot_id.."Set:Cmd:Group:New1"..msg.chat_id_..":ا","ايدي")
+database:sadd(bot_id.."List:Cmd:Group:New"..msg.chat_id_,"ا")
+database:set(bot_id.."Set:Cmd:Group:New1"..msg.chat_id_..":م","رفع مميز")
+database:sadd(bot_id.."List:Cmd:Group:New"..msg.chat_id_,"م")
+database:set(bot_id.."Set:Cmd:Group:New1"..msg.chat_id_..":اد","رفع ادمن")
+database:sadd(bot_id.."List:Cmd:Group:New"..msg.chat_id_,"اد")
+database:set(bot_id.."Set:Cmd:Group:New1"..msg.chat_id_..":مد","رفع مدير")
+database:sadd(bot_id.."List:Cmd:Group:New"..msg.chat_id_,"مد")
+database:set(bot_id.."Set:Cmd:Group:New1"..msg.chat_id_..":من","رفع منشئ")
+database:sadd(bot_id.."List:Cmd:Group:New"..msg.chat_id_,"من")
+database:set(bot_id.."Set:Cmd:Group:New1"..msg.chat_id_..":اس","رفع منشئ اساسي")
+database:sadd(bot_id.."List:Cmd:Group:New"..msg.chat_id_,"اس")
+database:set(bot_id.."Set:Cmd:Group:New1"..msg.chat_id_..":مط","رفع مطور")
+database:sadd(bot_id.."List:Cmd:Group:New"..msg.chat_id_,"مط")
+database:set(bot_id.."Set:Cmd:Group:New1"..msg.chat_id_..":ثانوي","رفع مطور ثانوي")
+database:sadd(bot_id.."List:Cmd:Group:New"..msg.chat_id_,"ثانوي")
+database:set(bot_id.."Set:Cmd:Group:New1"..msg.chat_id_..":تك","تنزيل الكل")
+database:sadd(bot_id.."List:Cmd:Group:New"..msg.chat_id_,"تك")
+database:set(bot_id.."Set:Cmd:Group:New1"..msg.chat_id_..":تعط","تعطيل الايدي بالصوره")
+database:sadd(bot_id.."List:Cmd:Group:New"..msg.chat_id_,"تعط")
+database:set(bot_id.."Set:Cmd:Group:New1"..msg.chat_id_..":تفع","تفعيل الايدي بالصوره")
+database:sadd(bot_id.."List:Cmd:Group:New"..msg.chat_id_,"تفع")
+database:set(bot_id.."Set:Cmd:Group:New1"..msg.chat_id_..":ر","الرابط")
+database:sadd(bot_id.."List:Cmd:Group:New"..msg.chat_id_,"ر")
+database:set(bot_id.."Set:Cmd:Group:New1"..msg.chat_id_..":رر","ردود المدير")
+database:sadd(bot_id.."List:Cmd:Group:New"..msg.chat_id_,"رر")
+database:set(bot_id.."Set:Cmd:Group:New1"..msg.chat_id_..":،،","مسح المكتومين")
+database:sadd(bot_id.."List:Cmd:Group:New"..msg.chat_id_,"،،")
+database:set(bot_id.."Set:Cmd:Group:New1"..msg.chat_id_..":رد","اضف رد")
+database:sadd(bot_id.."List:Cmd:Group:New"..msg.chat_id_,"رد")
+database:set(bot_id.."Set:Cmd:Group:New1"..msg.chat_id_..":سح","مسح سحكاتي")
+database:sadd(bot_id.."List:Cmd:Group:New"..msg.chat_id_,"سح")
+database:set(bot_id.."Set:Cmd:Group:New1"..msg.chat_id_..":رس","مسح رسائلي")
+database:sadd(bot_id.."List:Cmd:Group:New"..msg.chat_id_,"رس")
+send(msg.chat_id_, msg.id_,"℘︙تم ترتيب الاوامر بالشكل التالي ~\n- ايدي - ا .\n- رفع مميز - م .\n-رفع ادمن - اد .\n- رفع مدير - مد . \n- رفع منشى - من . \n- رفع منشئ الاساسي - اس  .\n- رفع مطور - مط .\n-رفع مطور ثانوي - ثانوي .\n- تنزيل الكل - تك .\n- تعطيل الايدي بالصوره - تعط .\n- تفعيل الايدي بالصوره - تفع .\n- الرابط - ر .\n- ردود المدير - رر .\n- مسح المكتومين - ،، .\n- اضف رد - رد .\n- مسح سحكاتي - سح .\n- مسح رسائلي - رس .")  
+end
 if text == 'حذف امر' or text == 'مسح امر' then 
 if Constructor(msg) then
 if AddChannel(msg.sender_user_id_) == false then
