@@ -1074,7 +1074,7 @@ end
 if text == 'تحديث السورس ℘' and DevFiOnA(msg) then 
 os.execute('rm -rf FiOnA.lua')
 os.execute('wget https://raw.githubusercontent.com/FiOnA-TeaM/FiOnA/main/FiOnA.lua')
-send(msg.chat_id_, msg.id_,' ℘︙تم تحديث السورس \n ℘︙لديك اخر اصدار لسورس فيونا\n ℘︙الاصدار » { v 1.7 }')
+send(msg.chat_id_, msg.id_,' ℘︙تم تحديث السورس \n ℘︙لديك اخر اصدار لسورس فيونا\n ℘︙الاصدار » { v 1.8 }')
 dofile('FiOnA.lua')  
 end
 if text == "تحديث ℘" then
@@ -1094,7 +1094,7 @@ dofile('FiOnA.lua')
 end
 if text == 'الاصدار ℘' and DevFiOnA(msg) then 
 database:del(bot_id..'Srt:Bot') 
-send(msg.chat_id_, msg.id_,' ℘︙اصدار سورس فيونا \n ℘︙الاصدار »{ v 1.7 }')
+send(msg.chat_id_, msg.id_,' ℘︙اصدار سورس فيونا \n ℘︙الاصدار »{ v 1.8 }')
 end
 if text == "ضع اسم للبوت ℘" and DevFiOnA(msg) then  
 database:setex(bot_id..'Set:Name:Bot'..msg.sender_user_id_,300,true) 
@@ -2368,7 +2368,7 @@ return false
 end
 os.execute('rm -rf FiOnA.lua')
 os.execute('wget https://raw.githubusercontent.com/FiOnA-TeaM/FiOnA/main/FiOnA.lua')
-send(msg.chat_id_, msg.id_,' ℘︙تم تحديث السورس \n ℘︙لديك اخر اصدار لسورس فيونا\n ℘︙الاصدار » { v 1.7 }')
+send(msg.chat_id_, msg.id_,' ℘︙تم تحديث السورس \n ℘︙لديك اخر اصدار لسورس فيونا\n ℘︙الاصدار » { v 1.8 }')
 dofile('FiOnA.lua')  
 end
 
