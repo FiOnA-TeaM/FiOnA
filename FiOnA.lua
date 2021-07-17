@@ -11406,32 +11406,32 @@ local Text =[[
 *⚙️ | اهلا انت في اوامر البوت الرئيسية 🔏*
 *⚙️ | اختر في الاسفل الرقم التابع للأمر 🔍*
 *ٴ≪━━━━ F𝙸𝙾𝙽𝙰 ━━━━≫ٴ*
-*1️⃣◂ اوامر الحمايه .*
-*2️⃣◂ اوامر تعطيل ~ تفعيل .*
-*3️⃣◂ اوامر ضع ~ اضف  .*
-*4️⃣◂ اوامر مسح ~ حذف .*
-*5️⃣◂ اوامر تنزيل+رفع+التغير .*
-*6️⃣◂ اوامر الكروب .*
-*7️⃣◂ اوامر التحشيش .*
-*8️⃣◂ اوامر مطور البوت .*
-*9️⃣◂ اوامر مطور الاساسي .*
-*🔟◂ اوامر الاعضاء .*
+*❶◂ اوامر الحمايه .*
+*❷◂ اوامر تعطيل ~ تفعيل .*
+*❸◂ اوامر ضع ~ اضف  .*
+*❹◂ اوامر مسح ~ حذف .*
+*❺◂ اوامر تنزيل+رفع+التغير .*
+*❻◂ اوامر الكروب .*
+*❼◂ اوامر التحشيش .*
+*❽◂ اوامر مطور البوت .*
+*❾◂ اوامر مطور الاساسي .*
+*⓿❶◂ اوامر الاعضاء .*
 *ٴ≪━━━━ F𝙸𝙾𝙽𝙰 ━━━━≫ٴ*
 ➫ .[🖨┇𝚂𝙾𝚄𝚁𝙲𝙴𝚂 F𝙸𝙾𝙽𝙰. ](t.me/fiona_team)➤
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '1️⃣', callback_data="/help1"},{text = '2️⃣', callback_data="/help2"},{text = '3️⃣', callback_data="/help3"},
+{text = '• ❶ •', callback_data="/help1"},{text = '• ❷ •', callback_data="/help2"},{text = '• ❸ •', callback_data="/help3"},
 },
 {
-{text = '4️⃣', callback_data="/help4"},{text = '5️⃣', callback_data="/help5"},
+{text = '• ❹ •', callback_data="/help4"},{text = '• ❺ •', callback_data="/help5"},
 },
 {
-{text = '6️⃣', callback_data="/help6"},{text = '7️⃣', callback_data="/help7"},{text = '8️⃣', callback_data="/help8"},
+{text = '• ❻ •', callback_data="/help6"},{text = '• ❼ •', callback_data="/help7"},{text = '• ❽ •', callback_data="/help8"},
 },
 {
-{text = '9️⃣', callback_data="/help9"},{text = '🔟', callback_data="/help10"},
+{text = '• ❾ •', callback_data="/help9"},{text = '• ❶⓿ •', callback_data="/help10"},
 },
 {
 {text = 'F𝙸𝙾𝙽𝙰 𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url="t.me/fiona_team"},
@@ -11718,19 +11718,16 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '1️⃣', callback_data="/help1"},{text = '2️⃣', callback_data="/help2"},{text = '3️⃣', callback_data="/help3"},
+{text = '• ❶ •', callback_data="/help1"},{text = '• ❷ •', callback_data="/help2"},{text = '• ❸ •', callback_data="/help3"},
 },
 {
-{text = '4️⃣', callback_data="/help4"},{text = '5️⃣', callback_data="/help5"},
+{text = '• ❹ •', callback_data="/help4"},{text = '• ❺ •', callback_data="/help5"},
 },
 {
-{text = '6️⃣', callback_data="/help6"},{text = '7️⃣', callback_data="/help7"},{text = '8️⃣', callback_data="/help8"},
+{text = '• ❻ •', callback_data="/help6"},{text = '• ❼ •', callback_data="/help7"},{text = '• ❽ •', callback_data="/help8"},
 },
 {
-{text = '9️⃣', callback_data="/help9"},{text = '🔟', callback_data="/help10"},
-},
-{
-{text = '🔙 الاوامر الرئيسيه 🔙', callback_data="/help"},
+{text = '• ❾ •', callback_data="/help9"},{text = '• ❶⓿ •', callback_data="/help10"},
 },
 {
 {text = 'F𝙸𝙾𝙽𝙰 𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url="t.me/fiona_team"},
@@ -11787,19 +11784,16 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '1️⃣', callback_data="/help1"},{text = '2️⃣', callback_data="/help2"},{text = '3️⃣', callback_data="/help3"},
+{text = '• ❶ •', callback_data="/help1"},{text = '• ❷ •', callback_data="/help2"},{text = '• ❸ •', callback_data="/help3"},
 },
 {
-{text = '4️⃣', callback_data="/help4"},{text = '5️⃣', callback_data="/help5"},
+{text = '• ❹ •', callback_data="/help4"},{text = '• ❺ •', callback_data="/help5"},
 },
 {
-{text = '6️⃣', callback_data="/help6"},{text = '7️⃣', callback_data="/help7"},{text = '8️⃣', callback_data="/help8"},
+{text = '• ❻ •', callback_data="/help6"},{text = '• ❼ •', callback_data="/help7"},{text = '• ❽ •', callback_data="/help8"},
 },
 {
-{text = '9️⃣', callback_data="/help9"},{text = '🔟', callback_data="/help10"},
-},
-{
-{text = '🔙 الاوامر الرئيسيه 🔙', callback_data="/help"},
+{text = '• ❾ •', callback_data="/help9"},{text = '• ❶⓿ •', callback_data="/help10"},
 },
 {
 {text = 'F𝙸𝙾𝙽𝙰 𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url="t.me/fiona_team"},
@@ -11838,19 +11832,16 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '1️⃣', callback_data="/help1"},{text = '2️⃣', callback_data="/help2"},{text = '3️⃣', callback_data="/help3"},
+{text = '• ❶ •', callback_data="/help1"},{text = '• ❷ •', callback_data="/help2"},{text = '• ❸ •', callback_data="/help3"},
 },
 {
-{text = '4️⃣', callback_data="/help4"},{text = '5️⃣', callback_data="/help5"},
+{text = '• ❹ •', callback_data="/help4"},{text = '• ❺ •', callback_data="/help5"},
 },
 {
-{text = '6️⃣', callback_data="/help6"},{text = '7️⃣', callback_data="/help7"},{text = '8️⃣', callback_data="/help8"},
+{text = '• ❻ •', callback_data="/help6"},{text = '• ❼ •', callback_data="/help7"},{text = '• ❽ •', callback_data="/help8"},
 },
 {
-{text = '9️⃣', callback_data="/help9"},{text = '🔟', callback_data="/help10"},
-},
-{
-{text = '🔙 الاوامر الرئيسيه 🔙', callback_data="/help"},
+{text = '• ❾ •', callback_data="/help9"},{text = '• ❶⓿ •', callback_data="/help10"},
 },
 {
 {text = 'F𝙸𝙾𝙽𝙰 𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url="t.me/fiona_team"},
@@ -11897,19 +11888,16 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '1️⃣', callback_data="/help1"},{text = '2️⃣', callback_data="/help2"},{text = '3️⃣', callback_data="/help3"},
+{text = '• ❶ •', callback_data="/help1"},{text = '• ❷ •', callback_data="/help2"},{text = '• ❸ •', callback_data="/help3"},
 },
 {
-{text = '4️⃣', callback_data="/help4"},{text = '5️⃣', callback_data="/help5"},
+{text = '• ❹ •', callback_data="/help4"},{text = '• ❺ •', callback_data="/help5"},
 },
 {
-{text = '6️⃣', callback_data="/help6"},{text = '7️⃣', callback_data="/help7"},{text = '8️⃣', callback_data="/help8"},
+{text = '• ❻ •', callback_data="/help6"},{text = '• ❼ •', callback_data="/help7"},{text = '• ❽ •', callback_data="/help8"},
 },
 {
-{text = '9️⃣', callback_data="/help9"},{text = '🔟', callback_data="/help10"},
-},
-{
-{text = '🔙 الاوامر الرئيسيه 🔙', callback_data="/help"},
+{text = '• ❾ •', callback_data="/help9"},{text = '• ❶⓿ •', callback_data="/help10"},
 },
 {
 {text = 'F𝙸𝙾𝙽𝙰 𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url="t.me/fiona_team"},
@@ -11962,19 +11950,16 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '1️⃣', callback_data="/help1"},{text = '2️⃣', callback_data="/help2"},{text = '3️⃣', callback_data="/help3"},
+{text = '• ❶ •', callback_data="/help1"},{text = '• ❷ •', callback_data="/help2"},{text = '• ❸ •', callback_data="/help3"},
 },
 {
-{text = '4️⃣', callback_data="/help4"},{text = '5️⃣', callback_data="/help5"},
+{text = '• ❹ •', callback_data="/help4"},{text = '• ❺ •', callback_data="/help5"},
 },
 {
-{text = '6️⃣', callback_data="/help6"},{text = '7️⃣', callback_data="/help7"},{text = '8️⃣', callback_data="/help8"},
+{text = '• ❻ •', callback_data="/help6"},{text = '• ❼ •', callback_data="/help7"},{text = '• ❽ •', callback_data="/help8"},
 },
 {
-{text = '9️⃣', callback_data="/help9"},{text = '🔟', callback_data="/help10"},
-},
-{
-{text = '🔙 الاوامر الرئيسيه 🔙', callback_data="/help"},
+{text = '• ❾ •', callback_data="/help9"},{text = '• ❶⓿ •', callback_data="/help10"},
 },
 {
 {text = 'F𝙸𝙾𝙽𝙰 𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url="t.me/fiona_team"},
@@ -12048,19 +12033,16 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '1️⃣', callback_data="/help1"},{text = '2️⃣', callback_data="/help2"},{text = '3️⃣', callback_data="/help3"},
+{text = '• ❶ •', callback_data="/help1"},{text = '• ❷ •', callback_data="/help2"},{text = '• ❸ •', callback_data="/help3"},
 },
 {
-{text = '4️⃣', callback_data="/help4"},{text = '5️⃣', callback_data="/help5"},
+{text = '• ❹ •', callback_data="/help4"},{text = '• ❺ •', callback_data="/help5"},
 },
 {
-{text = '6️⃣', callback_data="/help6"},{text = '7️⃣', callback_data="/help7"},{text = '8️⃣', callback_data="/help8"},
+{text = '• ❻ •', callback_data="/help6"},{text = '• ❼ •', callback_data="/help7"},{text = '• ❽ •', callback_data="/help8"},
 },
 {
-{text = '9️⃣', callback_data="/help9"},{text = '🔟', callback_data="/help10"},
-},
-{
-{text = '🔙 الاوامر الرئيسيه 🔙', callback_data="/help"},
+{text = '• ❾ •', callback_data="/help9"},{text = '• ❶⓿ •', callback_data="/help10"},
 },
 {
 {text = 'F𝙸𝙾𝙽𝙰 𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url="t.me/fiona_team"},
@@ -12122,19 +12104,16 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '1️⃣', callback_data="/help1"},{text = '2️⃣', callback_data="/help2"},{text = '3️⃣', callback_data="/help3"},
+{text = '• ❶ •', callback_data="/help1"},{text = '• ❷ •', callback_data="/help2"},{text = '• ❸ •', callback_data="/help3"},
 },
 {
-{text = '4️⃣', callback_data="/help4"},{text = '5️⃣', callback_data="/help5"},
+{text = '• ❹ •', callback_data="/help4"},{text = '• ❺ •', callback_data="/help5"},
 },
 {
-{text = '6️⃣', callback_data="/help6"},{text = '7️⃣', callback_data="/help7"},{text = '8️⃣', callback_data="/help8"},
+{text = '• ❻ •', callback_data="/help6"},{text = '• ❼ •', callback_data="/help7"},{text = '• ❽ •', callback_data="/help8"},
 },
 {
-{text = '9️⃣', callback_data="/help9"},{text = '🔟', callback_data="/help10"},
-},
-{
-{text = '🔙 الاوامر الرئيسيه 🔙', callback_data="/help"},
+{text = '• ❾ •', callback_data="/help9"},{text = '• ❶⓿ •', callback_data="/help10"},
 },
 {
 {text = 'F𝙸𝙾𝙽𝙰 𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url="t.me/fiona_team"},
@@ -12166,19 +12145,16 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '1️⃣', callback_data="/help1"},{text = '2️⃣', callback_data="/help2"},{text = '3️⃣', callback_data="/help3"},
+{text = '• ❶ •', callback_data="/help1"},{text = '• ❷ •', callback_data="/help2"},{text = '• ❸ •', callback_data="/help3"},
 },
 {
-{text = '4️⃣', callback_data="/help4"},{text = '5️⃣', callback_data="/help5"},
+{text = '• ❹ •', callback_data="/help4"},{text = '• ❺ •', callback_data="/help5"},
 },
 {
-{text = '6️⃣', callback_data="/help6"},{text = '7️⃣', callback_data="/help7"},{text = '8️⃣', callback_data="/help8"},
+{text = '• ❻ •', callback_data="/help6"},{text = '• ❼ •', callback_data="/help7"},{text = '• ❽ •', callback_data="/help8"},
 },
 {
-{text = '9️⃣', callback_data="/help9"},{text = '🔟', callback_data="/help10"},
-},
-{
-{text = '🔙 الاوامر الرئيسيه 🔙', callback_data="/help"},
+{text = '• ❾ •', callback_data="/help9"},{text = '• ❶⓿ •', callback_data="/help10"},
 },
 {
 {text = 'F𝙸𝙾𝙽𝙰 𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url="t.me/fiona_team"},
@@ -12264,19 +12240,16 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '1️⃣', callback_data="/help1"},{text = '2️⃣', callback_data="/help2"},{text = '3️⃣', callback_data="/help3"},
+{text = '• ❶ •', callback_data="/help1"},{text = '• ❷ •', callback_data="/help2"},{text = '• ❸ •', callback_data="/help3"},
 },
 {
-{text = '4️⃣', callback_data="/help4"},{text = '5️⃣', callback_data="/help5"},
+{text = '• ❹ •', callback_data="/help4"},{text = '• ❺ •', callback_data="/help5"},
 },
 {
-{text = '6️⃣', callback_data="/help6"},{text = '7️⃣', callback_data="/help7"},{text = '8️⃣', callback_data="/help8"},
+{text = '• ❻ •', callback_data="/help6"},{text = '• ❼ •', callback_data="/help7"},{text = '• ❽ •', callback_data="/help8"},
 },
 {
-{text = '9️⃣', callback_data="/help9"},{text = '🔟', callback_data="/help10"},
-},
-{
-{text = '🔙 الاوامر الرئيسيه 🔙', callback_data="/help"},
+{text = '• ❾ •', callback_data="/help9"},{text = '• ❶⓿ •', callback_data="/help10"},
 },
 {
 {text = 'F𝙸𝙾𝙽𝙰 𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url="t.me/fiona_team"},
@@ -12321,19 +12294,16 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '1️⃣', callback_data="/help1"},{text = '2️⃣', callback_data="/help2"},{text = '3️⃣', callback_data="/help3"},
+{text = '• ❶ •', callback_data="/help1"},{text = '• ❷ •', callback_data="/help2"},{text = '• ❸ •', callback_data="/help3"},
 },
 {
-{text = '4️⃣', callback_data="/help4"},{text = '5️⃣', callback_data="/help5"},
+{text = '• ❹ •', callback_data="/help4"},{text = '• ❺ •', callback_data="/help5"},
 },
 {
-{text = '6️⃣', callback_data="/help6"},{text = '7️⃣', callback_data="/help7"},{text = '8️⃣', callback_data="/help8"},
+{text = '• ❻ •', callback_data="/help6"},{text = '• ❼ •', callback_data="/help7"},{text = '• ❽ •', callback_data="/help8"},
 },
 {
-{text = '9️⃣', callback_data="/help9"},{text = '🔟', callback_data="/help10"},
-},
-{
-{text = '🔙 الاوامر الرئيسيه 🔙', callback_data="/help"},
+{text = '• ❾ •', callback_data="/help9"},{text = '• ❶⓿ •', callback_data="/help10"},
 },
 {
 {text = 'F𝙸𝙾𝙽𝙰 𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url="t.me/fiona_team"},
@@ -12353,32 +12323,32 @@ local Teext =[[
 *⚙️ | اهلا انت في اوامر البوت الرئيسية 🔏*
 *⚙️ | اختر في الاسفل الرقم التابع للأمر 🔍*
 *ٴ≪━━━━ F𝙸𝙾𝙽𝙰 ━━━━≫ٴ*
-*1️⃣◂ اوامر الحمايه .*
-*2️⃣◂ اوامر تعطيل ~ تفعيل .*
-*3️⃣◂ اوامر ضع ~ اضف  .*
-*4️⃣◂ اوامر مسح ~ حذف .*
-*5️⃣◂ اوامر تنزيل+رفع+التغير .*
-*6️⃣◂ اوامر الكروب .*
-*7️⃣◂ اوامر التحشيش .*
-*8️⃣◂ اوامر مطور البوت .*
-*9️⃣◂ اوامر مطور الاساسي .*
-*🔟◂ اوامر الاعضاء .*
+*❶◂ اوامر الحمايه .*
+*❷◂ اوامر تعطيل ~ تفعيل .*
+*❸◂ اوامر ضع ~ اضف  .*
+*❹◂ اوامر مسح ~ حذف .*
+*❺◂ اوامر تنزيل+رفع+التغير .*
+*❻◂ اوامر الكروب .*
+*❼◂ اوامر التحشيش .*
+*❽◂ اوامر مطور البوت .*
+*❾◂ اوامر مطور الاساسي .*
+*⓿❶◂ اوامر الاعضاء .*
 *ٴ≪━━━━ F𝙸𝙾𝙽𝙰 ━━━━≫ٴ*
 ➫ .[🖨┇𝚂𝙾𝚄𝚁𝙲𝙴𝚂 F𝙸𝙾𝙽𝙰. ](t.me/fiona_team)➤
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '1️⃣', callback_data="/help1"},{text = '2️⃣', callback_data="/help2"},{text = '3️⃣', callback_data="/help3"},
+{text = '• ❶ •', callback_data="/help1"},{text = '• ❷ •', callback_data="/help2"},{text = '• ❸ •', callback_data="/help3"},
 },
 {
-{text = '4️⃣', callback_data="/help4"},{text = '5️⃣', callback_data="/help5"},
+{text = '• ❹ •', callback_data="/help4"},{text = '• ❺ •', callback_data="/help5"},
 },
 {
-{text = '6️⃣', callback_data="/help6"},{text = '7️⃣', callback_data="/help7"},{text = '8️⃣', callback_data="/help8"},
+{text = '• ❻ •', callback_data="/help6"},{text = '• ❼ •', callback_data="/help7"},{text = '• ❽ •', callback_data="/help8"},
 },
 {
-{text = '9️⃣', callback_data="/help9"},{text = '🔟', callback_data="/help10"},
+{text = '• ❾ •', callback_data="/help9"},{text = '• ❶⓿ •', callback_data="/help10"},
 },
 {
 {text = 'F𝙸𝙾𝙽𝙰 𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url="t.me/fiona_team"},
