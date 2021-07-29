@@ -2661,14 +2661,17 @@ end,nil)
 end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' then
 Text = [[
-⦑ Welcome to Source ⦒
-⌔ ⦑ SOURCE FiOnA ⦒ 
-┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︙[Source Channel](t.me/fiona_team)   
-⌔︙[Devloper one](t.me/BBB43)     
-⌔︙[Devloper two](t.me/abbasfadhil) 
-┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-𓂅 . [TWS FiOnA](t.me/Z66Z6bot)     
+💢┇Source FiOnA
+━━━━━━━━━━━━━
+
+💠┇[Channel Source ،](t.me/fiona_team)
+
+💭┇[Annotations Source](t.me/fiona_team)
+
+💬┇[Communication Source](t.me/Z66Z6bot)
+
+━━━━━━━━━━━━━
+⚜┇[Developer Source !](t.me/BBB43)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
