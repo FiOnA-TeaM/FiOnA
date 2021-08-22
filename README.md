@@ -21,11 +21,11 @@
 
   
 
-# <p align="center" style="color:#cb3349" > [مــطــور ســورس](https://telegram.me/BBB43) <br>
+# <p align="center" style="color:#cb3349" > [مــطــور ســورس](https://telegram.me/Mooaiud) <br>
  
  
  
-# <p align="center" style="color:#cb3349" > [مبــرمـج فيونا](https://telegram.me/abbasfadhil) <br>
+# <p align="center" style="color:#cb3349" > [مبــرمـج فيونا](https://telegram.me/Mooaiud) <br>
 
   
 
