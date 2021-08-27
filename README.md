@@ -27,5 +27,8 @@
  
 # <p align="center" style="color:#cb3349" > [مبــرمـج فيونا](https://telegram.me/Mooaiud) <br>
 
+
+# <p align="center" style="color:#cb3349" > [كروب مود](https://telegram.me/Mooaiud) <br>
+
   
 
